@@ -1,11 +1,11 @@
 # Site settings
 author: Caitlin Majewski
-title: 
+title: Flat Iron Course
 header-img: img/home-bg.png
 email: cmajewski@wesleyan.edu
 copyright_name: Caitlin Majewski
 description: > # this means to ignore newlines until "baseurl:"
-  
+  Blog on my coding journey throughout the Flat Iron course
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  Cmajewski
