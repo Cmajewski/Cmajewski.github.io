@@ -22,11 +22,9 @@ I quickly realized how difficult this actually was, as I was accustomed to using
 1. Create organized and succinct classes where you don't repeat yourself.
 1. Google is your best friend!
 
-I thought about what I wanted to do for my project and was immediately pulled towards the idea of scraping a website for travel details.  Without much research I landed on the following [website ]
+I thought about what I wanted to do for my project and was immediately pulled towards the idea of scraping a website for travel details.  Without much research I landed on the following [website](https://www.travelandleisure.com/trip-ideas/fall-vacations/affordable-destinations-for-fall-travel).
 
 At first glance, it seemed perfect with a name, location, flight cost and hotel price that I could scrape for my Gem. However, admittedly after spending hours trying to make this website function in the way I imagined, the website did not have the appropriate html tags.
-
-![](file:///Users/caitlinmajewski/Desktop/Screen%20Shot%202019-09-18%20at%202.11.08%20PM%202.png)
 
 I held onto this project idea for a long time before finally deciding to pivot and restructure my idea.  I am so thankful I did because my new [website](https://www.builtinnyc.com/companies/best-places-to-work-nyc) allowed me to scrape in a succinct way and abstract my code in ways I could not before.   
 
