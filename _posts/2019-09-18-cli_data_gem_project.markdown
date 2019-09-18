@@ -15,15 +15,15 @@ I quickly realized how difficult this actually was, as I was accustomed to using
  
 1. Install your gem using bundler and the "bundle gem <project name>" command.**
 1. Create a new Github repository like this.
-1. 
-1.  ![](https://swcarpentry.github.io/git-novice/fig/github-create-repo-03.png)
-1. 
-1. 1nclude `!/usr/bin/env` ruby to make an executable file.
+
+![](https://swcarpentry.github.io/git-novice/fig/github-create-repo-03.png)
+
+1. Include `!/usr/bin/env` ruby to make an executable file.
 1. Plan your Gem out first before getting into the technicalities of how you will code it.
 1. Think about how youll will scrape your data when browsing websites. 
 1. Create organized and succinct classes where you don't repeat yourself.
 1. Google is your best friend!
-1. **
+
 I thought about what I wanted to do for my project and was immediately pulled towards the idea of scraping a website for travel details.  Without much research I landed on the following [website ]
 
 At first glance, it seemed perfect with a name, location, flight cost and hotel price that I could scrape for my Gem. However, admittedly after spending hours trying to make this website function in the way I imagined, the website did not have the appropriate html tags.
