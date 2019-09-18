@@ -15,9 +15,7 @@ I quickly realized how difficult this actually was, as I was accustomed to using
  
 1. Install your gem using bundler and the "bundle gem <project name>" command.**
 1. Create a new Github repository like this.
-
 ![](https://swcarpentry.github.io/git-novice/fig/github-create-repo-03.png)
-
 1. Include `!/usr/bin/env` ruby to make an executable file.
 1. Plan your Gem out first before getting into the technicalities of how you will code it.
 1. Think about how youll will scrape your data when browsing websites. 
