@@ -57,7 +57,7 @@ After a User logged in I would set `session[:user_id]=@user.id` as this was the 
 ![](https://imgur.com/s9XC9Ay.jpg)
 
 
-The bug was problematic because I couldn't verify the user was signed in from page to page. The fix was simple and was just a type in my configure enable:sessions code, but showed me the importance of the sessions hash for this project.  I'm excited to build on our web famework understanding with Rails. 
+The bug was problematic because I couldn't verify the user was signed in from page to page. The fix was simple and was just a type in my configure `enable: sessions` code, but showed me the importance of the sessions hash for this project.  I'm excited to build on our web famework understanding with Rails. 
 
 
 
