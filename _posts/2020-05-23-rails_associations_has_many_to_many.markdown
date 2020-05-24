@@ -18,10 +18,12 @@ In the midst of a global pandemic, I wanted a user story to focus on something t
 
 I needed a class model ( or Workout to avoid naming confusion), Instructor model and a User model to start with, associating them in the following ways.  The Workout model would belong to both the User and the Instructor, as an instructor has many classes and users will take many classes.
 
-https://imgur.com/a/wWZxOSO
-
 ![](https://imgur.com/a/wWZxOSO)
 
+However, this association didn't account for more than one user tuning in, saving and taking each listed workout class.  I needed to adjust this association to a has many to many relationship. 
+![](https://imgur.com/a/93u2Ul2)
+
+[](https://wpcdn.us-midwest-1.vip.tn-cloud.net/www.rimonthly.com/content/uploads/2020/03/GettyImages-823875020-1-768x535.jpg)
 
 
 
