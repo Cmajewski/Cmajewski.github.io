@@ -10,7 +10,7 @@ This past week I completed my Rails project, the third module project in the Fla
 
 I found that the most important step to my project was planning out the MVC relationships, specifically how my models would be associated. I began with a user story, which is a great way to clarify project scope and think about what your ideal user experience entails.
 
-The user story is a short and simplified story of what the user wants in a new tool or additional capabilities. User stories are a way to deviate from technical development and instead put the actual user of the project at the center of the conversation.
+The user story is a short and simplified narrative defining what the user wants in a new tool or additional capabilities. User stories are a way to deviate from technical development and instead put the actual user of the project at the center of the conversation.
 
 *User Story: The desired functionailty from the user's perspective.*
 
