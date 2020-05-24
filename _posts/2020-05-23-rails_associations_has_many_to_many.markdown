@@ -20,7 +20,7 @@ I needed a class model (or Workout to avoid naming confusion), Instructor model 
 
 ![](https://i.postimg.cc/R02Y71C5/Untitled-Diagram.png)
 
-However, this association didn't account for more than one user tuning in and taking each listed workout class.  To account for this more dynamic many to many relationship, I adjusted this association to a has many to many relationship. 
+However, this association didn't account for more than one user tuning in and taking each listed workout class.  To account for this more dynamic many to many relationship, I adjusted the association to a has many to many relationship. 
 
 ![](https://i.postimg.cc/QxjyJdDt/Untitled-Diagram.jpg)
 
@@ -33,11 +33,11 @@ Rails supports the following six associations.
 * has_one :through
 * has_and_belongs_to_many
 
-My Workout and User classes would be a has_many relationships but I needed to narrow down if it was a has_many :through relationship using a join table or a has_and_belongs_to_many relationship. I turned to the rails guide, which recommends the following.
+My Workout and User classes would be associated with a type of has_many relationship, however I needed to narrow down if it was a has_many :through relationship, using a join table, or a has_and_belongs_to_many relationship. I turned to the rails guide, which recommends the following.
 
 ![](https://i.postimg.cc/yd4H1CZZ/Screen-Shot-2020-05-24-at-5-24-02-PM.png)
 
-The relationship between these two models is something I wanted to see when creating my user story.  I want a user to be able to save and book a class to their feed.  A user should also be able to look at all of the classes they have taken historically to see the instructors they liked or the class types they enjoy.  Therefore, a has_many :through relationship was the correct option between these two models.  Additionally, I could have just created a WorkoutUser join table but that relationship could also be represented through a Booking model.  I updated my model associations to account for this new association and added in a virtual Platform model, so users could also easily filter and search for classes using their favorite platform as a filter. 
+The relationship between these two models is something I envisioned seeing when creating my user story.  I wanted a user to be able to save and book a class to their feed.  A user should also be able to look at all of the classes they have taken historically, to see the instructors they liked or the class types they enjoy.  Therefore, a has_many :through relationship was the correct option between these two models.  Additionally, I could have just created a WorkoutUser join table but that relationship could also be represented through a Booking model.  I updated my model associations to account for this new association and added in a virtual Platform model, so users could easily filter and search for workout classes using their favorite platform as a filter. 
 
 ![](https://i.postimg.cc/1X1wrXN3/Untitled-Diagram-2.png)
 
