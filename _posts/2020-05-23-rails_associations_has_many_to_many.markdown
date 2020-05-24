@@ -12,7 +12,7 @@ I found that the most important step to my project was planning out the MVC rela
 
 The user story is a short and simplified story of what the user wants in a new tool or additional capabilities. User stories are a way to deviate from technical development and instead put the actual user of the project at the center of the conversation.
 
-*** User Story: The desired functionailty from the user's perspective.***
+****User Story: The desired functionailty from the user's perspective.
 
 In the midst of a global pandemic, I wanted a user story to focus on a disruption that has changed the way we interact with a business or technology.  While more trivial than other concerns, I chose the fitness industry and how it has been largely disrupted during this social distancing period. Fitness companies have launched their own websites, turned to Instagram or created Youtube channels to host virtual live classes. My project would allow a user to login and see these different streaming services and schedules consolidated in one place. 
 
