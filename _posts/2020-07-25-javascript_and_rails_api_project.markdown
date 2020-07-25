@@ -21,5 +21,7 @@ Next I began on my user story.
 * A user is able to add a product review.
 
 ![](https://i.ibb.co/dcQPfWw/Screen-Shot-2020-07-25-at-2-39-54-PM.jpg)
+
+I fcreated two classes for my Rails API backend, Products and Reviews, with a belongs_to and has_many relationship.  Products have many reviews and all reviews belong to a Product. 
  
  
