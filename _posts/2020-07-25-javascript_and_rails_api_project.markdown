@@ -10,9 +10,9 @@ For my Javascript and Rails API project, I designed an application to consolidat
 
 I landed on this project idea by first outlining the problem I wanted my application to answer.
 
-**Problem: It is difficult to find the most popular product across different health and wellness brands. **
+### Problem: It is difficult to find the most popular product across different health and wellness brands. 
 
-My app would parse these numerous products and offer a quick visual answer by users upvoting their favorites products. I envisioned a frontend display and functionality similar to [Product Hunt.](https://www.producthunt.com/), where you could upvote products and they would move to the top of the page.
+My app would parse these numerous products and offer a quick visual answer by users upvoting their favorites products. I envisioned a frontend display and functionality similar to [Product Hunt](https://www.producthunt.com/), where you could upvote products and they would move to the top of the page.
 
 Next I began on my user story.
 
@@ -20,5 +20,5 @@ Next I began on my user story.
 * A user is able to view a product's reviews. 
 * A user is able to add a product review.
 
-![](https://imgur.com/gallery/ej61NlM)
+![](https://imgur.com/a/ej61NlM.png)
 
