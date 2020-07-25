@@ -20,5 +20,6 @@ Next I began on my user story.
 * A user is able to view a product's reviews. 
 * A user is able to add a product review.
 
-![](https://imgur.com/a/ej61NlM.png)
-
+![](https://i.ibb.co/dcQPfWw/Screen-Shot-2020-07-25-at-2-39-54-PM.jpg)
+ 
+ 
