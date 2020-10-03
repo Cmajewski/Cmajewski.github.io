@@ -24,7 +24,7 @@ React Hooks are also regular Javascript functions with two main rules.
 * Don't use them inside loops, conditions or nested functions.
 * Only use them from inside React functions.
 
-There are 10 built in React Hooks and then you can write your own custom Hooks. The four most common ones are: 
+There are ten built in React Hooks, in addition to capabilities for writing your own custom Hooks. The four most common ones are: 
 1. useState()
 2. useEffect()
 3. useContext()
