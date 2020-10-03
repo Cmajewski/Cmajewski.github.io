@@ -1,14 +1,14 @@
 ---
 layout: post
 title:      "What type of React Component should you build? "
-date:       2020-10-03 22:53:20 +0000
+date:       2020-10-03 18:53:21 -0400
 permalink:  what_type_of_react_component_should_you_build
 ---
 
 
-When building React components, there are a number of ways to structure them and it’s important to understand the differences to correctly utilize their different features.   
+When building React components, there are a number of ways to structure them and it’s important to understand the differences to correctly utilize their features.   
 
-The first is when should you use a functional component and when should you use a class component?
+When should you use a functional component and when should you use a class component?
 
 **Functional components**, sometimes referred to as stateless components, are plain Javascript functions that take in an argument of a prop and return a React element. You cannot call `this.state` inside a functional component.  You also cannot access lifecycle methods, such as `componentDidMount` in a functional component.  
 
