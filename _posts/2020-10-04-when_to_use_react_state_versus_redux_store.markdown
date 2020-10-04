@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "When to use React State versus Redux Store"
-date:       2020-10-04 04:25:12 +0000
+date:       2020-10-04 00:25:13 -0400
 permalink:  when_to_use_react_state_versus_redux_store
 ---
 
@@ -21,7 +21,7 @@ The React local state should be used when the state is only relevant to the comp
 * Central store and easy to access
 * Prevents unnecessary re-renders
 * Better for debugging
-* 
+
 
 **Pros of React Local State**
 * Ideal for simple state or when UI changes occur
