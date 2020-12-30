@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "When to use React State versus Redux Store"
+title:      "React Store"
 date:       2020-10-04 00:25:13 -0400
 permalink:  when_to_use_react_state_versus_redux_store
 ---
